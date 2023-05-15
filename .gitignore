@@ -1,0 +1,14 @@
+node_modules
+mongodb_data
+mongo1-data
+mongo2-data
+dist
+/.idea
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.code-workspace
+/.DS_Store
+.DS_Store
+yarn-error.log
+.env
+docker-compose.yml

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.1"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build:tsc": "rm -rf ./dist && tsc --build",
+    "watch:tsc": "tsc -w",
+    "build": "yarn build:tsc",
+    "watch": "yarn watch:tsc"
+  }
+}
